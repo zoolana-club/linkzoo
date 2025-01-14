@@ -53,6 +53,21 @@
           "id": "jZY9cHspvwoT",
           "name": "InstagramFillSvgrepoComSvgIcon",
           "moduleFilePath": "plasmic/blank_website_mobile_first/icons/PlasmicIcon__InstagramFillSvgrepoComSvg.tsx"
+        },
+        {
+          "id": "NAqLtEit9vBn",
+          "name": "WebRoundSvgrepoComSvgIcon",
+          "moduleFilePath": "plasmic/linkzoo/icons/PlasmicIcon__WebRoundSvgrepoComSvg.tsx"
+        },
+        {
+          "id": "_hym-HlNEm3Y",
+          "name": "TelegramSvgrepoCom5SvgIcon",
+          "moduleFilePath": "plasmic/linkzoo/icons/PlasmicIcon__TelegramSvgrepoCom5Svg.tsx"
+        },
+        {
+          "id": "pBXCeelTBMmW",
+          "name": "Twitter3SvgrepoCom1SvgIcon",
+          "moduleFilePath": "plasmic/linkzoo/icons/PlasmicIcon__Twitter3SvgrepoCom1Svg.tsx"
         }
       ],
       "images": [

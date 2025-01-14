@@ -66,6 +66,9 @@ import sty from "./PlasmicHomepage.module.css"; // plasmic-import: PMmPo_7aw6qK/
 
 import TiktokSvgrepoComSvgIcon from "./icons/PlasmicIcon__TiktokSvgrepoComSvg"; // plasmic-import: 07SmtDcZBYzp/icon
 import InstagramFillSvgrepoComSvgIcon from "./icons/PlasmicIcon__InstagramFillSvgrepoComSvg"; // plasmic-import: jZY9cHspvwoT/icon
+import Twitter3SvgrepoCom1SvgIcon from "../linkzoo/icons/PlasmicIcon__Twitter3SvgrepoCom1Svg"; // plasmic-import: pBXCeelTBMmW/icon
+import TelegramSvgrepoCom5SvgIcon from "../linkzoo/icons/PlasmicIcon__TelegramSvgrepoCom5Svg"; // plasmic-import: _hym-HlNEm3Y/icon
+import WebRoundSvgrepoComSvgIcon from "../linkzoo/icons/PlasmicIcon__WebRoundSvgrepoComSvg"; // plasmic-import: NAqLtEit9vBn/icon
 
 createPlasmicElementProxy;
 
@@ -126,7 +129,20 @@ function PlasmicHomepage__RenderFunc(props: {
 
   return (
     <React.Fragment>
-      <Head></Head>
+      <Head>
+        <meta name="twitter:card" content="summary" />
+        <title key="title">{PlasmicHomepage.pageMetadata.title}</title>
+        <meta
+          key="og:title"
+          property="og:title"
+          content={PlasmicHomepage.pageMetadata.title}
+        />
+        <meta
+          key="twitter:title"
+          name="twitter:title"
+          content={PlasmicHomepage.pageMetadata.title}
+        />
+      </Head>
 
       <style>{`
         body {
@@ -183,7 +199,11 @@ function PlasmicHomepage__RenderFunc(props: {
                 sty.link__jt8I4
               )}
               component={Link}
+              href={
+                "https://www.tiktok.com/@zoolana.club?_t=ZS-8t3FRforjaD&_r=1"
+              }
               platform={"nextjs"}
+              target={"_blank"}
             >
               <TiktokSvgrepoComSvgIcon
                 className={classNames(projectcss.all, sty.svg__k0OZu)}
@@ -211,7 +231,11 @@ function PlasmicHomepage__RenderFunc(props: {
                 sty.link___4HHu2
               )}
               component={Link}
+              href={
+                "https://www.instagram.com/zoolana.club?igsh=MTRqd2p6NGQ3cDdzeg=="
+              }
               platform={"nextjs"}
+              target={"_blank"}
             >
               <InstagramFillSvgrepoComSvgIcon
                 className={classNames(projectcss.all, sty.svg__sfTeZ)}
@@ -236,12 +260,44 @@ function PlasmicHomepage__RenderFunc(props: {
               className={classNames(
                 projectcss.all,
                 projectcss.a,
+                sty.link__fbOkd
+              )}
+              component={Link}
+              href={"https://x.com/zoolanaclub"}
+              platform={"nextjs"}
+              target={"_blank"}
+            >
+              <Twitter3SvgrepoCom1SvgIcon
+                className={classNames(projectcss.all, sty.svg__n1NIk)}
+                role={"img"}
+              />
+
+              <h4
+                className={classNames(
+                  projectcss.all,
+                  projectcss.h4,
+                  projectcss.__wab_text,
+                  sty.h4__fE7Fp
+                )}
+              >
+                {"Twitter"}
+              </h4>
+              <div className={classNames(projectcss.all, sty.freeBox__zj8Gs)} />
+            </Stack__>
+            <Stack__
+              as={PlasmicLink__}
+              hasGap={true}
+              className={classNames(
+                projectcss.all,
+                projectcss.a,
                 sty.link__fmmzy
               )}
               component={Link}
+              href={"https://t.me/ZoolanaClub"}
               platform={"nextjs"}
+              target={"_blank"}
             >
-              <InstagramFillSvgrepoComSvgIcon
+              <TelegramSvgrepoCom5SvgIcon
                 className={classNames(projectcss.all, sty.svg__hkt7)}
                 role={"img"}
               />
@@ -254,9 +310,39 @@ function PlasmicHomepage__RenderFunc(props: {
                   sty.h4___6NjXp
                 )}
               >
-                {"Instagram"}
+                {"Telegram"}
               </h4>
               <div className={classNames(projectcss.all, sty.freeBox__s99Ba)} />
+            </Stack__>
+            <Stack__
+              as={PlasmicLink__}
+              hasGap={true}
+              className={classNames(
+                projectcss.all,
+                projectcss.a,
+                sty.link___8ZjWu
+              )}
+              component={Link}
+              href={"https://www.zoolana.club/"}
+              platform={"nextjs"}
+              target={"_blank"}
+            >
+              <WebRoundSvgrepoComSvgIcon
+                className={classNames(projectcss.all, sty.svg__rd30G)}
+                role={"img"}
+              />
+
+              <h4
+                className={classNames(
+                  projectcss.all,
+                  projectcss.h4,
+                  projectcss.__wab_text,
+                  sty.h4__rVcNf
+                )}
+              >
+                {"Website"}
+              </h4>
+              <div className={classNames(projectcss.all, sty.freeBox__fErI)} />
             </Stack__>
           </section>
         </div>
@@ -348,7 +434,7 @@ export const PlasmicHomepage = Object.assign(
 
     // Page metadata
     pageMetadata: {
-      title: "",
+      title: "ZoolanaClub",
       description: "",
       ogImageSrc: "",
       canonical: ""
