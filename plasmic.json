@@ -1,0 +1,101 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "gxFBuyTxBT77oBFe4NM2ne",
+      "projectApiToken": "SDSJF9wb5HzAUYqluAPERrj0cg51ZjLsDhhUvS0P7WBE7Z6kmKSLLvQDoLqVib29CU0zVHy9oZfGXbjxTw",
+      "projectName": "Blank website (mobile-first)",
+      "version": "latest",
+      "cssFilePath": "plasmic/blank_website_mobile_first/plasmic.module.css",
+      "components": [
+        {
+          "id": "PMmPo_7aw6qK",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "gxFBuyTxBT77oBFe4NM2ne",
+          "renderModuleFilePath": "plasmic/blank_website_mobile_first/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/blank_website_mobile_first/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        }
+      ],
+      "icons": [
+        {
+          "id": "07SmtDcZBYzp",
+          "name": "TiktokSvgrepoComSvgIcon",
+          "moduleFilePath": "plasmic/blank_website_mobile_first/icons/PlasmicIcon__TiktokSvgrepoComSvg.tsx"
+        },
+        {
+          "id": "jZY9cHspvwoT",
+          "name": "InstagramFillSvgrepoComSvgIcon",
+          "moduleFilePath": "plasmic/blank_website_mobile_first/icons/PlasmicIcon__InstagramFillSvgrepoComSvg.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "LqDiFfotqoW7",
+          "name": "zoolana_club-removebg-preview.png",
+          "filePath": "../public/plasmic/blank_website_mobile_first/images/zoolanaClubRemovebgPreviewPng.png"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "ZFZVpmMIS0zV",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "DYMvTCwRRyBU",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "a9XRPBk7Va_h",
+        "name": "Screen",
+        "projectId": "gxFBuyTxBT77oBFe4NM2ne",
+        "contextFilePath": "plasmic/blank_website_mobile_first/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.334",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.334/dist/plasmic.schema.json"
+}
