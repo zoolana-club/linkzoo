@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -24,7 +24,7 @@
     {
       "projectId": "gxFBuyTxBT77oBFe4NM2ne",
       "projectApiToken": "SDSJF9wb5HzAUYqluAPERrj0cg51ZjLsDhhUvS0P7WBE7Z6kmKSLLvQDoLqVib29CU0zVHy9oZfGXbjxTw",
-      "projectName": "Blank website (mobile-first)",
+      "projectName": "linkzoo",
       "version": "latest",
       "cssFilePath": "plasmic/blank_website_mobile_first/plasmic.module.css",
       "components": [
